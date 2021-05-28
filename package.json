@@ -1,14 +1,16 @@
 {
-  "name": "comp229-m2021-week2d",
-  "version": "0.0.1",
-  "description": "Demo Project for COMP 229 - Week 2",
-  "main": "index.js",
-  "author": "Tom Tsiliopoulos",
-  "license": "MIT",
+  "name": "comp229-m2021-assignment1-wenxu-301098127",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "start": "node index.js"
+    "start": "node ./bin/www"
   },
-  "devDependencies": {
-    "@types/node": "^15.3.0"
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1"
   }
 }
