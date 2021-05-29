@@ -5,12 +5,13 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const app_1 = __importDefault(require("./app"));
-const debug_1 = __importDefault(require("debug"));
-debug_1.default('comp229-m2021-assignment1-wenxu-301098127:server');
+var debug = from;
+'debug';
+debug('comp229-m2021-assignment1-wenxu-301098127:server');
 const http_1 = __importDefault(require("http"));
-let port = normalizePort(process.env.PORT || '3000');
+var port = normalizePort(process.env.PORT || '3000');
 app_1.default.set('port', port);
-let server = http_1.default.createServer(app_1.default);
+var server = http_1.default.createServer(app_1.default);
 server.listen(port);
 server.on('error', onError);
 server.on('listening', onListening);
@@ -44,12 +45,11 @@ function onError(error) {
             throw error;
     }
 }
-function onListening()
-{
-    let addr = server.address();
-    let bind = typeof addr === 'string'
+function onListening() {
+    var addr = server.address();
+    var bind = typeof addr === 'string'
         ? 'pipe ' + addr
         : 'port ' + addr.port;
-    debug_1.default('Listening on ' + bind);
+    debug('Listening on ' + bind);
 }
 //# sourceMappingURL=index.js.map
