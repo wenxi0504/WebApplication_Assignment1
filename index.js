@@ -6,7 +6,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const app_1 = __importDefault(require("./app"));
 const debug_1 = __importDefault(require("debug"));
-debug_1.default('week-3d:server');
+debug_1.default('comp229-m2021-assignment1-wenxu-301098127:server');
 const http_1 = __importDefault(require("http"));
 let port = normalizePort(process.env.PORT || '3000');
 app_1.default.set('port', port);
