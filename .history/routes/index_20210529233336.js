@@ -16,12 +16,12 @@ router.get('/aboutme', function (req, res, next) {
     res.render('aboutme', { title: 'AboutMe' });
 });
 router.get('/projects', function (req, res, next) {
-    res.render('projects', { title: 'Projects' });
+    res.render('index', { title: 'Projects' });
 });
 router.get('/services', function (req, res, next) {
-    res.render('services', { title: 'Services' });
+    res.render('index', { title: 'Services' });
 });
 router.get('/contact', function (req, res, next) {
-    res.render('contact', { title: 'Contact' });
+    res.render('index', { title: 'Contact' });
 });
 //# sourceMappingURL=index.js.map
