@@ -1,5 +1,5 @@
 /* custom css */
-body {background-image:url("/Assets/images/background3.jpg")}
+body {background-image:url('Assets/images/background3.jpg')}
 
 #idPhoto {
     float:right;margin-left:8px;margin-bottom:6px
