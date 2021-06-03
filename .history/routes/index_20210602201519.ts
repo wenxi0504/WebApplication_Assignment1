@@ -5,13 +5,13 @@ export default router;
 /* get home page */
 router.get('/', function(req, res, next) 
 {
-  res.render('home', { title: 'Home' });
+  res.render('index', { title: 'Home' });
 });
 
 /* get home page */
 router.get('/home', function(req, res, next) 
 {
-  res.render('home', { title: 'Home' });
+  res.render('index', { title: 'Home' });
 });
 
 /* get about me page. */
